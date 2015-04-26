@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:id="@+id/postre_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/template_postre_img_h"
+        android:src="#33b5e5"
+
+        />
+
+    <TextView
+        android:id="@+id/postre_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nombre"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/template_postre_nombre_ts"
+        android:padding="@dimen/template_postre_padding"
+        android:layout_alignBottom="@id/postre_img"
+        />
+
+    <TextView
+        android:id="@+id/postre_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/postre_img"
+        android:maxLines="2"
+        android:text="este es un postre muy delicioso que tiene frutas t demas cosas ademas es muy economico hola hola hola hola hoal"
+        android:textSize="16sp"
+        android:padding="@dimen/template_postre_padding"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:id="@+id/postre_icon_time"
+        android:layout_width="@dimen/template_postre_icon_wh"
+        android:layout_height="30dp"
+        android:background="@drawable/postre_time"
+        android:text="T"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_below="@id/postre_des"
+        android:layout_marginLeft="@dimen/template_postre_padding"
+        />
+    <TextView
+        android:id="@+id/postre_tiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/postre_icon_time"
+        android:layout_alignBaseline="@id/postre_icon_time"
+        android:text="2 horas"
+        android:padding="@dimen/template_postre_padding"
+        />
+
+    <TextView
+        android:id="@+id/postre_icon_price"
+        android:layout_width="@dimen/template_postre_icon_wh"
+        android:layout_height="@dimen/template_postre_icon_wh"
+        android:background="@drawable/postre_price"
+        android:text="P"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_below="@id/postre_icon_time"
+        android:layout_marginLeft="@dimen/template_postre_padding"
+        android:layout_marginTop="@dimen/template_postre_padding"
+        />
+    <TextView
+        android:id="@+id/postre_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/postre_icon_price"
+        android:layout_alignBaseline="@id/postre_icon_price"
+        android:text="5000"
+        android:padding="@dimen/template_postre_padding"
+        />
+
+
+
+</RelativeLayout>

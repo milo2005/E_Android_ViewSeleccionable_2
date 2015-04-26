@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Postres</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="postres">
+        <item>Arroz con Leche#Una sensación unica para el paladar con la combinación de arroz, leche y pasas#2 horas#2000</item>
+        <item>Fresas con Crema#Cada que te despiertas querras probar las deliciosas fresas con crema#30 minutos#2500</item>
+        <item>Helados de paila#Siente derretir el sabor intenso de la vainilla en tu paladar#3 horas#3000</item>
+    </string-array>
+</resources>

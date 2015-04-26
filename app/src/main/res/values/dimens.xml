@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="template_postre_img_h">120dp</dimen>
+    <dimen name="template_postre_nombre_ts">30sp</dimen>
+    <dimen name="template_postre_padding">10dp</dimen>
+    <dimen name="template_postre_icon_wh">30dp</dimen>
+</resources>
